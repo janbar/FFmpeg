@@ -34,6 +34,7 @@ extern AVInputFormat  ff_aac_demuxer;
 extern AVInputFormat  ff_aax_demuxer;
 extern AVInputFormat  ff_ac3_demuxer;
 extern AVOutputFormat ff_ac3_muxer;
+extern AVInputFormat  ff_ac4_demuxer;
 extern AVInputFormat  ff_ace_demuxer;
 extern AVInputFormat  ff_acm_demuxer;
 extern AVInputFormat  ff_act_demuxer;
@@ -494,6 +495,7 @@ extern AVInputFormat  ff_xwma_demuxer;
 extern AVInputFormat  ff_yop_demuxer;
 extern AVInputFormat  ff_yuv4mpegpipe_demuxer;
 extern AVOutputFormat ff_yuv4mpegpipe_muxer;
+
 /* image demuxers */
 extern AVInputFormat  ff_image_bmp_pipe_demuxer;
 extern AVInputFormat  ff_image_cri_pipe_demuxer;
