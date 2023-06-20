@@ -49,6 +49,7 @@ version 4.4.4:
 - avcodec/nvenc: fix vbv buffer size in cq mode
 - avcodec/mjpegenc: take into account component count when writing the SOF header size
 - swscale: aarch64: Fix yuv2rgb with negative stride
+- Raw AC-4 muxer and demuxer
 
 version 4.4.3:
 - avformat/vividas: Check packet size
